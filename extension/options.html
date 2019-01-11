@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Hangouts</title>
+    <style>
+      #url {
+          width: 40em;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Register Hangouts extension</h1> This Chrome extension
+    uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler">registerProtocolHandler()</a>
+    to direct tel: links for phone numbers to Google Hangouts. First
+    go to
+    <a href="chrome://settings/handlers">chrome://settings/handlers</a>
+    (Chrome security requires that you copy and paste the link in a
+    new tab) and remove any existing tel: entry using its 3-dot menu.
+    Then click the register button below and allow RegisterHangouts to
+    open tel links in the security popup.
+
+    <p />
+    <button type="button" id="register">Register</button>
+    
+    <p /> The extension icon incorporates a phone silhouette created
+    by Dave Gandy under
+    the <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative
+    Commons Attribution-Share Alike 3.0 Unported</a> license.
+    
+    <script src="options.js"></script>
+  </body>
+</html>

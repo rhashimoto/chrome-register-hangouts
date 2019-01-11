@@ -1,0 +1,16 @@
+{
+  "name": "RegisterHangouts",
+  "version": "0.1.0",
+  "description": "Handle tel: links with Hangouts.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "https://hangouts.google.com/*",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler",
+    "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  ],
+  "manifest_version": 2
+}
